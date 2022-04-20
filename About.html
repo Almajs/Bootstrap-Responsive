@@ -11,6 +11,11 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
 
     <title>About</title>
   </head>
@@ -18,6 +23,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Alma Zamir</a>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -40,7 +46,16 @@
               <a class="nav-link" href="#">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="About.html#contact-me">Contact Me</a>
+              <a class="nav-link" href="#contact-me">Contact Me</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
             </li>
           </ul>
         </div>
@@ -56,7 +71,33 @@
         blanditiis harum.
       </p>
     </div>
-    <div class="contact-me">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="https://uploads.codesandbox.io/uploads/user/536b9ee2-9d41-444a-a85a-62ae77e381ac/l3jP-yoga.png"
+            class="img-fluid rounded"
+            alt=""
+          />
+        </div>
+        <div class="col-md-4">
+          <img
+            src="images/clever-gaufre-bf4079-netlify-app-.jpg"
+            class="img-fluid rounded"
+            alt=""
+          />
+        </div>
+        <div class="col-md-4">
+          <img
+            src="https://uploads.codesandbox.io/uploads/user/536b9ee2-9d41-444a-a85a-62ae77e381ac/WgM8-yogurt.png"
+            class="img-fluid rounded"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <br />
+    <div id="contact-me">
       <h2>📭 Contact me</h2>
       <a href="mailto:alma.zamir@gmail.com" class="email-link"
         >alma.zamir@gmail.com</a

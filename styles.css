@@ -3,10 +3,13 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
 h2 {
   text-align: center;
   display: block;
+  font-size: 48px;
 }
 h1 {
   text-align: center !important;
