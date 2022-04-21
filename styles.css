@@ -61,11 +61,11 @@ h3 {
   line-height: 1.5;
 }
 p {
+  display: block;
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
 }
 .email-link {
   display: flex;
